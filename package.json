@@ -1,0 +1,41 @@
+{
+  "name": "devcamp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.8.1",
+    "cookie-parser": "~1.3.3",
+    "debug": "~2.0.0",
+    "ejs": "~0.8.5",
+    "express": "~4.9.0",
+    "log4js": "^0.6.21",
+    "moment": "^2.8.3",
+    "mongoose": "^3.8.19",
+    "morgan": "~1.3.0",
+    "passport": "^0.2.1",
+    "serve-favicon": "~2.1.3",
+    "underscore": "^1.7.0"
+  },
+  "description": "devcamp sample application",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/takao-s/devcamp.git"
+  },
+  "keywords": [
+    "devcamp"
+  ],
+  "author": "takao-s",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/takao-s/devcamp/issues"
+  },
+  "homepage": "https://github.com/takao-s/devcamp",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "gulp": "^3.8.10"
+  }
+}
